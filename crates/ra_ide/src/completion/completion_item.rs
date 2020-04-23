@@ -106,6 +106,7 @@ pub enum CompletionItemKind {
     Method,
     TypeParam,
     Macro,
+    Attribute,
 }
 
 #[derive(Debug, PartialEq, Eq, Copy, Clone)]

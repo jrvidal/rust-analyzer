@@ -120,6 +120,7 @@ pub(crate) enum CompletionKind {
     Snippet,
     Postfix,
     BuiltinType,
+    Attribute,
 }
 
 #[derive(Debug, PartialEq, Eq, Copy, Clone)]
